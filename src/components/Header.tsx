@@ -50,7 +50,7 @@ export default function Header() {
                   <ul className="main_nav">
                     <li className="active"><a href="#">home</a></li>
                     <li><a href="about.html">about us</a></li>
-                    <li><a href="courses.html">Services</a></li>
+                    <li><a href="#service">Services</a></li>
                     <li><a href="contact.html">contact</a></li>
                   </ul>
                   <div className="search_button"><i className="fa fa-search" aria-hidden="true" /></div>
@@ -97,7 +97,7 @@ export default function Header() {
         <ul className="menu_mm">
           <li className="menu_mm"><a href="index.html">Home</a></li>
           <li className="menu_mm"><a href="courses.html">About</a></li>
-          <li className="menu_mm"><a href="instructors.html">Service</a></li>
+          <li className="menu_mm"><a href="#service">Service</a></li>
   
           <li className="menu_mm"><a href="contact.html">Contact</a></li>
         </ul>

@@ -28,7 +28,7 @@ function Footer() {
               </ul>
             </div>
             <div className="copyright">{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              Copyright © All rights reserved |  <a href="https://adeweb.co.tz" target="_blank">adeweb</a>
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</div>
           </div>
         </div>
@@ -38,10 +38,8 @@ function Footer() {
             <ul className="footer_list">
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About us</a></li>
-              <li><a href="#">Testimonials</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="contact.html">Contact</a></li>
-              <li><a href="#">Facts</a></li>
             </ul>
           </div>
         </div>
@@ -49,12 +47,11 @@ function Footer() {
           <div className="footer_links">
             <div className="footer_title">Useful Links</div>
             <ul className="footer_list">
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="#">Events</a></li>
+              <li><a href="courses.html">GSA AFRICA</a></li>
+              <li><a href="#">GSA CONSULTING</a></li>
               <li><a href="news.html">News</a></li>
               <li><a href="#">Teachers</a></li>
-              <li><a href="#">Links</a></li>
-              <li><a href="#">FAQ</a></li>
+            
             </ul>
           </div>
         </div>
@@ -64,7 +61,7 @@ function Footer() {
             <div className="footer_contact_info">
               <div className="footer_contact_item">
                 <div className="footer_contact_title">Address:</div>
-                <div className="footer_contact_line">1481 Creekside Lane Avila Beach, CA 93424</div>
+                <div className="footer_contact_line">Derm plaza , Makumbusho Dar es salaam</div>
               </div>
               <div className="footer_contact_item">
                 <div className="footer_contact_title">Phone:</div>
