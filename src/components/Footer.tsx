@@ -12,34 +12,35 @@ function Footer() {
               <a href="#">
                 <div className="logo_content d-flex flex-row align-items-end justify-content-start">
                   <div className="logo_img"><img src="../src/assets/images/logo.png" /></div>
-                  <div className="logo_text">learn</div>
+                  <div className="logo_text">GSA</div>
                 </div>
               </a>
             </div>
             <div className="footer_about_text">
-              <p>Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar.</p>
+              <p style={{textAlign:"justify"}}>GSA Recovery Services Limited is a fast-growing debt recovery professional firm in Tanzania. We offer a wide range of services through a team of experienced professionals.
+                </p>
             </div>
             <div className="footer_social">
               <ul>
-                <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
-                <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /></a></li>
+                <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true" /></a></li>
+                <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
                 <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
                 <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
               </ul>
             </div>
-            <div className="copyright">{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              Copyright © All rights reserved |  <a href="https://adeweb.co.tz" target="_blank">adeweb</a>
-              {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</div>
+            <div className="copyright" style={{color:"#000"}}>
+              Copyright © 2023 |  developed <a href="https://adeweb.co.tz" target="_blank">adeweb</a>
+             </div>
           </div>
         </div>
         <div className="col-lg-3 footer_col">
           <div className="footer_links">
             <div className="footer_title">Quick menu</div>
             <ul className="footer_list">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -61,15 +62,17 @@ function Footer() {
             <div className="footer_contact_info">
               <div className="footer_contact_item">
                 <div className="footer_contact_title">Address:</div>
-                <div className="footer_contact_line">Derm plaza , Makumbusho Dar es salaam</div>
+                <div className="footer_contact_line">Derm Plaza, 11th Floor, <br />Bagamoyo Road, 
+           <br />P.O. Box 2680 <br />
+      Dar es salaam, Tanzania</div> 
               </div>
               <div className="footer_contact_item">
                 <div className="footer_contact_title">Phone:</div>
-                <div className="footer_contact_line">+53 345 7953 32453</div>
+                <div className="footer_contact_line"> +255 782 515 655</div>
               </div>
               <div className="footer_contact_item">
                 <div className="footer_contact_title">Email:</div>
-                <div className="footer_contact_line">yourmail@gmail.com</div>
+                <div className="footer_contact_line">info@gsaconsulting.co.tz</div>
               </div>
             </div>
           </div>

@@ -8,31 +8,23 @@ export default function About() {
             {/* Header */}
             <Header />
             {/* Home */}
-            <div className="home">
-                {/* Background image artist https://unsplash.com/@thepootphotographer */}
-                <div className="home_background parallax_background parallax-window" data-parallax="scroll" data-image-src="../src/assets/images/about.jpg" data-speed="0.8" />
-                <div className="home_container">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <div className="home_content text-center">
-                                    <div className="home_title">About us</div>
-                                    <div className="breadcrumbs">
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li>About us</li>
-                                        </ul>
-                                    </div>
+
+            {/* About */}
+            <div className="about">
+                <div className="container">
+                    <div className="row mt-3">
+                        <div className="col">
+                            <div className="home_content text-center">
+                                <div className="home_title">About us</div>
+                                <div className="breadcrumbs">
+                                    <ul>
+                                        <li><h3 style={{fontWeight:"bold"}}>About us</h3></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            {/* About */}
-            <div className="about">
-                <div className="container">
-                    <div className="row about_row row-lg-eq-height">
+                    <div className="row about_row row-lg-eq-height mt-5">
                         <div className="col-lg-6">
                             <div className="about_content">
                                 <div className="about_title">About GSA Recovery Services Limited</div>
@@ -82,15 +74,15 @@ export default function About() {
                                     <div className="owl-item">
                                         <div className="course">
                                             <div className="course_body">
-                                               
+
                                                 <div className="course_title"><h3><a href="courses.html">Transparency</a></h3></div>
                                                 <div className="course_text">
-                                                    <p style={{textAlign:"justify"}}>
-                                                    We believe in being transparent with our clients and debtors alike. We provide clear and
-                                                 concise information about our services, fees, and policies to ensure that all parties understand the process. 
+                                                    <p style={{ textAlign: "justify" }}>
+                                                        We believe in being transparent with our clients and debtors alike. We provide clear and
+                                                        concise information about our services, fees, and policies to ensure that all parties understand the process.
                                                     </p>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
@@ -98,16 +90,16 @@ export default function About() {
                                     <div className="owl-item">
                                         <div className="course">
                                             <div className="course_body">
-                                                
+
                                                 <div className="course_title"><h3><a href="courses.html">Conflict of interest</a></h3></div>
                                                 <div className="course_text">
-                                                    <p style={{textAlign:"justify"}}>
-                                                    We take steps to avoid conflicts of interest, such as ensuring that our employees 
-                                                do not have personal relationships with
-                                                 debtors or clients that could compromise our impartiality.
+                                                    <p style={{ textAlign: "justify" }}>
+                                                        We take steps to avoid conflicts of interest, such as ensuring that our employees
+                                                        do not have personal relationships with
+                                                        debtors or clients that could compromise our impartiality.
                                                     </p>
                                                 </div>
-                                              
+
                                             </div>
                                         </div>
                                     </div>
@@ -115,46 +107,46 @@ export default function About() {
                                     <div className="owl-item">
                                         <div className="course">
                                             <div className="course_body">
-                                               
+
                                                 <div className="course_title"><h3><a href="courses.html">Compliance with local laws</a></h3></div>
                                                 <div className="course_text">
-                                                    <p style={{textAlign:"justify"}}>
-                                                    We comply with all applicable local, state, and federal laws related to debt collection, 
-                                                including the Fair Debt Collection Practices Act (FDCPA) and other relevant regulations.
+                                                    <p style={{ textAlign: "justify" }}>
+                                                        We comply with all applicable local, state, and federal laws related to debt collection,
+                                                        including the Fair Debt Collection Practices Act (FDCPA) and other relevant regulations.
                                                     </p>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                     <div className="owl-item">
                                         <div className="course">
                                             <div className="course_body">
-                                                
+
                                                 <div className="course_title"><h3><a href="courses.html">Ethical practices</a></h3></div>
                                                 <div className="course_text">
-                                                    <p style={{textAlign:"justify"}}>
-                                                    We strive to treat debtors with respect and dignity, and to avoid any tactics that 
-                                                could be considered harassing or 
-                                                abusive. We also seek to resolve disputes in a fair and equitable manner.
+                                                    <p style={{ textAlign: "justify" }}>
+                                                        We strive to treat debtors with respect and dignity, and to avoid any tactics that
+                                                        could be considered harassing or
+                                                        abusive. We also seek to resolve disputes in a fair and equitable manner.
                                                     </p>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                     <div className="owl-item">
                                         <div className="course">
                                             <div className="course_body">
-                                               
+
                                                 <div className="course_title"><h3><a href="courses.html">Confidentiality</a></h3></div>
                                                 <div className="course_text">
-                                                    <p style={{textAlign:"justify"}}>
-                                                    We take data protection and privacy seriously, and we follow industry best practices to safeguard the personal
-                                                 information of our clients and debtors.
+                                                    <p style={{ textAlign: "justify" }}>
+                                                        We take data protection and privacy seriously, and we follow industry best practices to safeguard the personal
+                                                        information of our clients and debtors.
                                                     </p>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -168,9 +160,9 @@ export default function About() {
                 </div>
             </div>
             {/* Milestones */}
-          
+
             {/* Teachers */}
-         
+
             {/* Footer */}
             <Footer />
         </div>

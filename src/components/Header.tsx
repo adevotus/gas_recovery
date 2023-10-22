@@ -48,10 +48,10 @@ export default function Header() {
                 </div>
                 <nav className="main_nav_contaner ml-auto">
                   <ul className="main_nav">
-                    <li className="active"><a href="#">home</a></li>
-                    <li><a href="about.html">about us</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li className="active"><a href="/">home</a></li>
+                    <li><a href="/about">about us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">contact</a></li>
                   </ul>
                   <div className="search_button"><i className="fa fa-search" aria-hidden="true" /></div>
                   {/* Hamburger */}
@@ -95,11 +95,11 @@ export default function Header() {
       </div>
       <nav className="menu_nav">
         <ul className="menu_mm">
-          <li className="menu_mm"><a href="index.html">Home</a></li>
-          <li className="menu_mm"><a href="courses.html">About</a></li>
-          <li className="menu_mm"><a href="#service">Service</a></li>
+          <li className="menu_mm"><a href="/">Home</a></li>
+          <li className="menu_mm"><a href="/about">About</a></li>
+          <li className="menu_mm"><a href="/services">Service</a></li>
   
-          <li className="menu_mm"><a href="contact.html">Contact</a></li>
+          <li className="menu_mm"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
       <div className="menu_extra">
@@ -117,5 +117,7 @@ export default function Header() {
     </div>
 
     </div>
+
+    
   )
 }
