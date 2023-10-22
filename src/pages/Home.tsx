@@ -14,16 +14,16 @@ export default function Home() {
             {/* Slider Item */}
             <div className="owl-item">
               {/* Background image artist https://unsplash.com/@benwhitephotography */}
-              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/index.jpg)' }} />
+              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/item_1.png)' }} />
               <div className="home_container">
                 <div className="container">
                   <div className="row">
                     <div className="col">
                       <div className="home_content text-center">
-                        <div className="home_logo"><img src="../src/assets/images/home_logo.png" /> </div>
-                        <div className="home_text">
-                          <div className="home_title">Complete Online Courses</div>
-                          <div className="home_subtitle">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Praesent vel nisl fermentum, gravida augue ut, fermentum ipsum.</div>
+                        {/* <div className="home_logo"><img src="../src/assets/images/home_logo.png" /> </div> */}
+                        <div className="home_text mt-4">
+                          <div className="home_title">Your Reliable Business Partner</div>
+                          <div className="home_subtitle" style={{color:"#000"}}>GSA was incorporated with a mission to make debt recovery convenient, risk-free, and accessible to businesses of all sizes.</div>
                         </div>
                         <div className="home_buttons">
                           <div className="button home_button"><a href="#">learn more<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
@@ -38,7 +38,7 @@ export default function Home() {
             {/* Slider Item */}
             <div className="owl-item">
               {/* Background image artist https://unsplash.com/@benwhitephotography */}
-              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/index.jpg)' }} />
+              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/item_1.png)' }} />
               <div className="home_container">
                 <div className="container">
                   <div className="row">
@@ -62,7 +62,7 @@ export default function Home() {
             {/* Slider Item */}
             <div className="owl-item">
               {/* Background image artist https://unsplash.com/@benwhitephotography */}
-              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/index.jpg)' }} />
+              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/item_1.png)' }} />
               <div className="home_container">
                 <div className="container">
                   <div className="row">
@@ -96,8 +96,8 @@ export default function Home() {
                 <div className="home_slider_nav home_slider_prev trans_200"><i className="fa fa-angle-left" aria-hidden="true" /></div>
                 <div className="home_slider_nav home_slider_next trans_200"><i className="fa fa-angle-right" aria-hidden="true" /></div>
               </div>
-              <div className="featured_container">
-                <div className="row mt-5">
+              <div className="featured_container py-5">
+                <div className="row">
                   <div className="col-lg-6 featured_col">
                     <div className="featured_content">
                       <div className="featured_header d-flex flex-row align-items-center justify-content-start">
@@ -118,7 +118,7 @@ export default function Home() {
                   </div>
                   <div className="col-lg-6 featured_col">
                     {/* Background image artist https://unsplash.com/@jtylernix */}
-                    <div className="featured_background" style={{ backgroundImage: 'url(../src/assets/images/featured.jpg)' }} />
+                    <div className="featured_background" style={{ backgroundImage: 'url(../src/assets/images/item_2.jpeg)' }} />
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="container">
           <div className="row about_row row-lg-eq-height">
           <div className="col-lg-6">
-              <div className="about_image"><img src="../src/assets/images/about_1.jpg" alt="https://unsplash.com/@jtylernix" /></div>
+              <div className="about_image"><img src="../src/assets/images/item_3.jpeg" alt="https://unsplash.com/@jtylernix" /></div>
             </div>
             <div className="col-lg-6">
               <div className="about_content">

@@ -11,8 +11,8 @@ function Footer() {
             <div className="logo_container">
               <a href="#">
                 <div className="logo_content d-flex flex-row align-items-end justify-content-start">
-                  <div className="logo_img"><img src="../src/assets/images/logo.png" /></div>
-                  <div className="logo_text">GSA</div>
+                  <div className="logo_img"><img src="../src/assets/images/item_4.png" width={260} height={60}/></div>
+                  {/* <div className="logo_text">GSA</div> */}
                 </div>
               </a>
             </div>

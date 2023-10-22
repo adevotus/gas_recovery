@@ -38,17 +38,16 @@ export default function About() {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="about_image"><img src="../src/assets/images/about_1.jpg" alt="https://unsplash.com/@jtylernix" /></div>
+                            <div className="about_image"><img src="../src/assets/images/item_2.jpeg" alt="https://unsplash.com/@jtylernix" /></div>
                         </div>
                     </div>
                     <div className="row about_row row-lg-eq-height">
                         <div className="col-lg-6 order-lg-1 order-2">
-                            <div className="about_image"><img src="../src/assets/images/about_1.jpg" /></div>
+                            <div className="about_image"><img src="../src/assets/images/item_3.jpeg" /></div>
                         </div>
                         <div className="col-lg-6 order-lg-2 order-1">
                             <div className="about_content">
-                                <div className="about_title">eLearn's Vision</div>
-                                <div className="about_text">
+                                <div className="about_text pb-3">
                                     <p style={{ textAlign: "justify" }}>
                                         GSA was incorporated with a mission to make debt recovery convenient, risk-free, and accessible to businesses of all sizes.
                                         We recognize the challenges and costs associated with collecting debts abroad, which often require specialized expertise in
