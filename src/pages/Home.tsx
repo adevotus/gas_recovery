@@ -25,10 +25,10 @@ export default function Home() {
                           <div className="home_title">Your Reliable Business Partner</div>
                           <div className="home_subtitle" style={{color:"#000"}}>GSA was incorporated with a mission to make debt recovery convenient, risk-free, and accessible to businesses of all sizes.</div>
                         </div>
-                        <div className="home_buttons">
+                        {/* <div className="home_buttons">
                           <div className="button home_button"><a href="#">learn more<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
                           <div className="button home_button"><a href="#">see all courses<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -44,15 +44,15 @@ export default function Home() {
                   <div className="row">
                     <div className="col">
                       <div className="home_content text-center">
-                        <div className="home_logo"><img src="../src/assets/images/home_logo.png" /></div>
-                        <div className="home_text">
-                          <div className="home_title">Complete Online Courses</div>
-                          <div className="home_subtitle">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Praesent vel nisl fermentum, gravida augue ut, fermentum ipsum.</div>
+                        {/* <div className="home_logo"><img src="../src/assets/images/home_logo.png" /></div> */}
+                        <div className="home_text mt-4">
+                          <div className="home_title">Your Reliable Business Partner</div>
+                          <div className="home_subtitle" style={{color:"#000"}}>GSA was incorporated with a mission to make debt recovery convenient, risk-free, and accessible to businesses of all sizes.</div>
                         </div>
-                        <div className="home_buttons">
+                        {/* <div className="home_buttons">
                           <div className="button home_button"><a href="#">learn more<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
                           <div className="button home_button"><a href="#">see all courses<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -60,29 +60,7 @@ export default function Home() {
               </div>
             </div>
             {/* Slider Item */}
-            <div className="owl-item">
-              {/* Background image artist https://unsplash.com/@benwhitephotography */}
-              <div className="home_slider_background" style={{ backgroundImage: 'url(../src/assets/images/item_1.png)' }} />
-              <div className="home_container">
-                <div className="container">
-                  <div className="row">
-                    <div className="col">
-                      <div className="home_content text-center">
-                        <div className="home_logo"><img src="../src/assets/images/home_logo.png" /></div>
-                        <div className="home_text">
-                          <div className="home_title">Complete Online Courses</div>
-                          <div className="home_subtitle">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Praesent vel nisl fermentum, gravida augue ut, fermentum ipsum.</div>
-                        </div>
-                        <div className="home_buttons">
-                          <div className="button home_button"><a href="#">learn more<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
-                          <div className="button home_button"><a href="#">see all courses<div className="button_arrow"><i className="fa fa-angle-right" aria-hidden="true" /></div></a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>
@@ -174,8 +152,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">20</div>
-                      <div className="event_month">April</div>
+                      <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -194,8 +172,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">23</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -210,8 +188,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">27</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -232,8 +210,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">20</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -246,8 +224,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">23</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -261,8 +239,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">25</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -275,8 +253,8 @@ export default function Home() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">27</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -303,32 +281,32 @@ export default function Home() {
             <div className="col-lg-3 milestone_col">
               <div className="milestone text-center">
                 <div className="milestone_icon"><img src="../src/assets/images/milestone_1.svg" /></div>
-                <div className="milestone_counter" data-end-value={1548}>0</div>
-                <div className="milestone_text">Online Courses</div>
+                <div className="milestone_counter" data-end-value={2}>0</div>
+                <div className="milestone_text">Publications</div>
               </div>
             </div>
             {/* Milestone */}
             <div className="col-lg-3 milestone_col">
               <div className="milestone text-center">
                 <div className="milestone_icon"><img src="../src/assets/images/milestone_2.svg" /></div>
-                <div className="milestone_counter" data-end-value={7286}>0</div>
-                <div className="milestone_text">Students</div>
+                <div className="milestone_counter" data-end-value={4}>0</div>
+                <div className="milestone_text">Clients</div>
               </div>
             </div>
             {/* Milestone */}
             <div className="col-lg-3 milestone_col">
               <div className="milestone text-center">
                 <div className="milestone_icon"><img src="../src/assets/images/milestone_3.svg" /></div>
-                <div className="milestone_counter" data-end-value={257}>0</div>
-                <div className="milestone_text">Teachers</div>
+                <div className="milestone_counter" data-end-value={3}>0</div>
+                <div className="milestone_text">Blogs</div>
               </div>
             </div>
             {/* Milestone */}
             <div className="col-lg-3 milestone_col">
               <div className="milestone text-center">
                 <div className="milestone_icon"><img src="../src/assets/images/milestone_4.svg" /></div>
-                <div className="milestone_counter" data-end-value={39}>0</div>
-                <div className="milestone_text">Countries</div>
+                <div className="milestone_counter" data-end-value={4}>0</div>
+                <div className="milestone_text">Visitors</div>
               </div>
             </div>
           </div>

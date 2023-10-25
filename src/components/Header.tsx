@@ -14,16 +14,16 @@ export default function Header() {
                   <ul className="top_bar_contact_list">
                     <li><div className="question">Have any questions?</div></li>
                     <li>
-                      <div>(009) 35475 6688933 32</div>
+                      <div>GSA RECOVERY LIMITED</div>
                     </li>
                     <li>
-                      <div>info@elaerntemplate.com</div>
+                      <div>info@gsarsl.co.tz</div>
                     </li>
                   </ul>
                   <div className="top_bar_login ml-auto">
                     <ul>
-                      <li><a href="#">Register</a></li>
-                      <li><a href="#">Login</a></li>
+                      <li><a href="https://gsaafrica.com/">GSA AFRICA</a></li>
+                      {/* <li><a href="#">GSA CONSULTING</a></li> */}
                     </ul>
                   </div>
                 </div>
@@ -41,14 +41,14 @@ export default function Header() {
                 <div className="logo_container">
                   <a href="#">
                     <div className="logo_content d-flex flex-row align-items-end justify-content-start">
-                      <div className="logo_img"><img src="../src/assets/images/logo.png" /></div>
-                      <div className="logo_text">learn</div>
+                      {/* <div className="logo_img"><img src="../src/assets/images/logo.png" /></div> */}
+                      <div className="logo_text">GSA Recovery</div>
                     </div>
                   </a>
                 </div>
                 <nav className="main_nav_contaner ml-auto">
                   <ul className="main_nav">
-                    <li className="active"><a href="/">home</a></li>
+                    <li><a href="/">home</a></li>
                     <li><a href="/about">about us</a></li>
                     <li><a href="/services">Services</a></li>
                     <li><a href="/contact">contact</a></li>
@@ -103,7 +103,7 @@ export default function Header() {
         </ul>
       </nav>
       <div className="menu_extra">
-        <div className="menu_phone"><span className="menu_title">phone:</span>(009) 35475 6688933 32</div>
+        <div className="menu_phone"><span className="menu_title">phone:</span>+255 782 515 655</div>
         <div className="menu_social">
           <span className="menu_title">follow us</span>
           <ul>

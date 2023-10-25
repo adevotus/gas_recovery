@@ -9,7 +9,7 @@ function Footer() {
         <div className="col-lg-3 footer_col">
           <div className="footer_about">
             <div className="logo_container">
-              <a href="#">
+              <a href="/">
                 <div className="logo_content d-flex flex-row align-items-end justify-content-start">
                   <div className="logo_img"><img src="../src/assets/images/item_4.png" width={260} height={60}/></div>
                   {/* <div className="logo_text">GSA</div> */}
@@ -41,6 +41,11 @@ function Footer() {
               <li><a href="/about">About us</a></li>
               <li><a href="/services">Services</a></li>
               <li><a href="/contact">Contact</a></li>
+              <li><a href="https://gsaconsulting.co.tz/blogs">Blog</a></li>
+              <li><a href="https://gsaconsulting.co.tz/publiSite">Publications</a></li>
+
+
+            
             </ul>
           </div>
         </div>
@@ -48,10 +53,10 @@ function Footer() {
           <div className="footer_links">
             <div className="footer_title">Useful Links</div>
             <ul className="footer_list">
-              <li><a href="courses.html">GSA AFRICA</a></li>
-              <li><a href="#">GSA CONSULTING</a></li>
-              <li><a href="news.html">News</a></li>
-              <li><a href="#">Teachers</a></li>
+              <li><a href="https://gsaafrica.com/">GSA AFRICA</a></li>
+              <li><a href="https://gsaconsulting.co.tz/">GSA CONSULTING</a></li>
+              <li><a href="https://www.tra.go.tz/">Tanzania Revenue Authority</a></li>
+              {/* <li><a href="#">Publications</a></li> */}
             
             </ul>
           </div>

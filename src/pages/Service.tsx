@@ -32,8 +32,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">20</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -52,8 +52,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">23</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -68,8 +68,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">27</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -90,8 +90,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">20</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -104,8 +104,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">23</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -119,8 +119,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">25</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
@@ -133,8 +133,8 @@ function Service() {
                 <div className="event d-flex flex-row align-items-start justify-content-start">
                   <div>
                     <div className="event_date d-flex flex-column align-items-center justify-content-center">
-                      <div className="event_day">27</div>
-                      <div className="event_month">April</div>
+                    <div className="event_day"><i className="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+                      {/* <div className="event_month">April</div> */}
                     </div>
                   </div>
                   <div className="event_body">
